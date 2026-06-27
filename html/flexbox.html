@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, .navigation, footer{
+            background-color: rgb(220, 33, 220);
+            padding:20px;
+            text-align: center;
+            font-size: 30px;
+            color: white;
+        }
+        .navigation{
+            background-color: chartreuse;
+            margin-top: 10px;
+        }
+        .cont{
+            width: 100%;
+            height: 300px;
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+        }
+        .left{
+            width: 30%;
+            height: 100%;
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+        }
+        .right{
+            width: 70%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .content, .section{
+            width: 100%;
+            height: 50%;
+            background-color: brown;
+            font-size: 30px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .section{
+            background-color: blueviolet;
+        }
+        footer{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Header
+    </header>
+    
+    <div class="navigation">Navigation</div>
+
+    <div class="cont">
+        <div class="left">
+            Aside
+        </div>
+        <div class="right">
+            <div class="content">conten</div>
+            <div class="section">section</div>
+        </div>
+    </div>
+
+    <footer>Footer</footer>
+    
+    
+</body>
+</html>
